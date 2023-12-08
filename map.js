@@ -26,7 +26,7 @@ var marker1 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
 
 // Ajouter un popup personnalisé au marqueur
 var popup1 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Restaurant Karièr</h3><p>Vous êtes ici.</p>');
+    .setHTML('<h3>Restaurant Karièr</h3><p></p>');
 
 marker1.setPopup(popup1);
 
@@ -47,7 +47,7 @@ marker2.setPopup(popup2);
     .setLngLat([2.5948, 48.4321])
     .addTo(map);
 var popup3 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Ferme chaillotine</h3><p>Notre maraîchère, Camille Allard, qui produit tous ses fruits et légumes Bio à sa ferme de Chailly-en-Bière, en Seine-et-Marne. Retrouvez ses produits mis en valeur lors de votre dégustation. <br> Contacts : 0683999035          https://www.facebook.com/fermechaillotine</p>');
+    .setHTML('<h3>Ferme chaillotine</h3><p>Notre maraîchère, Camille Allard, qui produit tous ses fruits et légumes Bio à sa ferme de Chailly-en-Bière, en Seine-et-Marne. Retrouvez ses produits mis en valeur lors de votre dégustation. <br> Contacts : 0757066765          https://www.facebook.com/fermechaillotine</p>');
 marker3.setPopup(popup3);
 
 
@@ -67,7 +67,7 @@ var marker5 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.568052, 48.649247])
     .addTo(map);
 var popup5 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>La coopérative BIO de Paris</h3><p>Principal partenaire de Karièr, Aurélien Ducoux est </p>');
+    .setHTML('<h3>La coopérative BIO Île-de-France</h3><p>Principal partenaire de Karièr, la coopérative réunit 80 agriculteurs de la région pour proposer plus de 100 variétés de légumes différentes. <br>Contacts : 0164063617               https://www.la-cooperative-bio-iledefrance.fr/contact//p>');
 marker5.setPopup(popup5);
 
 
