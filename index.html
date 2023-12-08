@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte Mapbox GL avec Image Personnalisée</title>
+    <!-- Ajouter le lien vers la bibliothèque Mapbox GL JS -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <p><img src="./images/testlogo.png" alt="Karièr" id="logo" height="80"></p>
+    </div>
+    <!-- Le conteneur de la carte -->
+    <div id="map"></div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2><img src="./images/logosmall.png" alt="Karièr" id="logosmall" height="50"></h2>
+            <p>Bienvenue sur notre carte des producteurs.
+                Vous trouverez ici nos principaux fournisseurs alors amusez-vous à les chercher et à cliquer sur leurs logos pour découvrir leurs produits. Ne cherchez pas trop loin, 80% de nos produits sont sourcés en Île-de-France !
+            <br> Cliquez sur la croix pour fermer.
+        </p>
+        </div>
+    </div>
+
+
+    <script src="./map.js"></script>
+</body>
+</html>
