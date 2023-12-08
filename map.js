@@ -19,7 +19,7 @@ function createCustomMarker(imagePath, additionalClass) {
 }
 
 // Ajouter un marqueur personnalisé pour le 71 Avenue Henri Ginoux, Montrouge
-var customMarkerImage1 = './images/ksimplifiegris.jpg';
+var customMarkerImage1 = './images/Ksimplifiegris.jpg';
 var marker1 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage1) })
     .setLngLat([2.321468, 48.816629])
     .addTo(map);
