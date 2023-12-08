@@ -37,7 +37,7 @@ var marker2 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.8259, 48.8123])
     .addTo(map);
 var popup2 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Ferme de 30 Arpents</h3><p>Notre fournisseur de crèmeries, à Favières. Retrouvez leurs fromages ainsi que leurs yaourts travaillés dans vos assiettes. <br>Contacts : 0786603977      https://cellierdes30arpents.com</p>');
+    .setHTML('<h3>Ferme de 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez leurs fromages ainsi que leurs yaourts travaillés dans vos assiettes. <br>Contacts : 0786603977      https://cellierdes30arpents.com</p>');
 marker2.setPopup(popup2);
 
 
@@ -57,7 +57,7 @@ var marker4 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.4665, 48.4038])
     .addTo(map);
 var popup4 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Orée de milly</h3><p>Rencontrez notre producteur de chapons, élevées en plein air, et BIO : Pierre-Nicolas Grisel. <br>Contacts : 0601630343</p>');
+    .setHTML('<h3>Orée de milly</h3><p>Rencontrez notre producteur de chapons, élevés en plein air, et BIO : Pierre-Nicolas Grisel. <br>Contacts : 0601630343</p>');
 marker4.setPopup(popup4);
 
 
@@ -97,7 +97,7 @@ var marker8 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.3901, 48.8856])
     .addTo(map);
 var popup8 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Les champignons de la caverne</h3><p>Des champignons de Paris BIO poussés dans les vraies caves parisiennes. La ferme urbaine est un de nos partenaires depuis les prémices du projet Karièr. <br>Contacts : 0140809371             https://lacaverne.co </p>');
+    .setHTML('<h3>Les champignons de la caverne</h3><p>Des champignons de Paris BIO cultivés dans les vraies caves parisiennes. La ferme urbaine est un de nos partenaires depuis les prémices du projet Karièr. <br>Contacts : 0140809371             https://lacaverne.co </p>');
 marker8.setPopup(popup8);
 
 // Ajouter un marqueur pour Luximer, 22410 Saint-Quay-Portrieux
@@ -126,7 +126,7 @@ var marker11 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([1.935649, 49.011488])
     .addTo(map);
 var popup11 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passioné des champignons et a récemment ouvert sa productions aux particuliers, en proposant aussi shitake ou pleurotes. <br>Contacts : 0609062152                              https://www.facebook.com/Champignonniere.Les.Carrieres</p>');
+    .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa productions aux particuliers, en proposant aussi shiitaké ou pleurotes. <br>Contacts : 0609062152                              https://www.facebook.com/Champignonniere.Les.Carrieres</p>');
 marker11.setPopup(popup11);
 
 
