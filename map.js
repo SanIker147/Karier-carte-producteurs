@@ -97,7 +97,7 @@ var marker8 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.3901, 48.8856])
     .addTo(map);
 var popup8 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<img src="./images/mashroom.svg" alt="champi"><h3>Les champignons de la caverne</h3><p>Des champignons de Paris BIO poussés dans les vraies caves parisiennes. La ferme urbaine est un de nos partenaires depuis les prémices du projet Karièr. <br>Contacts : 0140809371             https://lacaverne.co </p>');
+    .setHTML('<h3>Les champignons de la caverne</h3><p>Des champignons de Paris BIO poussés dans les vraies caves parisiennes. La ferme urbaine est un de nos partenaires depuis les prémices du projet Karièr. <br>Contacts : 0140809371             https://lacaverne.co </p>');
 marker8.setPopup(popup8);
 
 // Ajouter un marqueur pour Luximer, 22410 Saint-Quay-Portrieux
