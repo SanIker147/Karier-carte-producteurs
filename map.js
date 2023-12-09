@@ -36,13 +36,13 @@ popup1.on('open', function () {
 marker1.setPopup(popup1);
 
 
-// Ajouter un marqueur pour la Ferme de 30 Arpents, Favières
+// Ajouter un marqueur pour la Ferme des 30 Arpents, Favières
 var customMarkerImage2 = './images/ferme30.jpeg';
 var marker2 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage2) })
     .setLngLat([2.8259, 48.8123])
     .addTo(map);
 var popup2 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Fermes de 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez leurs fromages ainsi que leurs yaourts travaillés dans vos assiettes. <br>Contacts : 0786603977      https://cellierdes30arpents.com</p>');
+    .setHTML('<h3>Fermes de 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez dans vos assiettes leurs fromages ainsi que leurs yaourts travaillés toute l'année. <br>Contacts : 0786603977      https://cellierdes30arpents.com</p>');
 marker2.setPopup(popup2);
 
 
@@ -52,7 +52,7 @@ marker2.setPopup(popup2);
     .setLngLat([2.5948, 48.4321])
     .addTo(map);
 var popup3 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Ferme chaillotine</h3><p>Notre maraîchère, Camille Allard, qui produit tous ses fruits et légumes Bio à sa ferme de Chailly-en-Bière, en Seine-et-Marne. Retrouvez ses produits mis en valeur lors de votre dégustation. <br> Contacts : 0757066765          https://www.facebook.com/fermechaillotine</p>');
+    .setHTML('<h3>Ferme chaillotine</h3><p>Notre maraîchère, Camille Allard, produit tous ses fruits et légumes Bio à sa ferme de Chailly-en-Bière, en Seine-et-Marne. Découvrez ses produits mis en valeur lors de votre dégustation. <br> Contacts : 0757066765          https://www.facebook.com/fermechaillotine</p>');
 marker3.setPopup(popup3);
 
 
@@ -111,7 +111,7 @@ var marker9 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([-2.823314, 48.648574])
     .addTo(map);
 var popup9 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Luximer</h3><p>Notre producteur de produits de la mer, péchés à quelques kilomètres de Saint-Brieuc.<br>Contacts : 0970160351               https://www.luximer.com/fr/</p>');
+    .setHTML('<h3>Luximer</h3><p>Notre producteur de produits de la mer, pêchés à quelques kilomètres de Saint-Brieuc.<br>Contacts : 0970160351               https://www.luximer.com/fr/</p>');
 marker9.setPopup(popup9);
 
 
@@ -131,7 +131,7 @@ var marker11 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([1.935649, 49.011488])
     .addTo(map);
 var popup11 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa productions aux particuliers, en proposant aussi shiitakés ou pleurotes. <br>Contacts : 0609062152                              https://www.facebook.com/Champignonniere.Les.Carrieres</p>');
+    .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa production aux particuliers, en proposant aussi shiitakés ou pleurotes. <br>Contacts : 0609062152                              https://www.facebook.com/Champignonniere.Les.Carrieres</p>');
 popup11.on('open', function () {
     var popupContent = document.querySelector('.custom-popup');
     var contentWidth = popupContent.scrollWidth; // Mesurez la largeur du contenu
@@ -147,7 +147,7 @@ var marker12 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([2.607893, 48.215815])
     .addTo(map);
 var popup12 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Vincent Morisseau</h3><p>Retrouvez Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux ! Elevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contacts : 0164287677                             http://www.ferme-de-filbois.fr</p>');
+    .setHTML('<h3>Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contacts : 0164287677                             http://www.ferme-de-filbois.fr</p>');
 marker12.setPopup(popup12);
 
 
@@ -157,7 +157,7 @@ var marker13 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([2.985058, 48.067148])
     .addTo(map);
 var popup13 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Thierry Pardé</h3><p>Retrouvez le safran de Sophie et Thierry Pardé, installés depuis 30 ans dans le Gâtinais. Chez Karièr, nous avons décidé de le mettre en valeur en un met sucré et délicat. <br>Contacts : 0238942136          </p>');
+    .setHTML('<h3>Thierry Pardé</h3><p>Dégustez le safran de Sophie et Thierry Pardé, installés depuis 30 ans dans le Gâtinais. Chez Karièr, nous avons décidé de le mettre en valeur en un met sucré et délicat. <br>Contacts : 0238942136          </p>');
 marker13.setPopup(popup13);
 
  // Fonction pour créer un élément HTML personnalisé (image)
