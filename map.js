@@ -148,13 +148,7 @@ var popup13 = new mapboxgl.Popup({ offset: 25 })
     .setHTML('<h3>Thierry Pardé</h3><p>Dégustez le safran de Sophie et Thierry Pardé, installés depuis 30 ans dans le Gâtinais. Chez Karièr, nous avons décidé de le mettre en valeur en un met sucré et délicat. <br>Contacts : 0238942136          </p>');
 marker13.setPopup(popup13);
 
- // Fonction pour créer un élément HTML personnalisé (image)
-function createCustomMarker(imagePath) {
-    var element = document.createElement('div');
-    element.className = 'custom-marker';
-    element.style.backgroundImage = 'url(' + imagePath + ')';
-    return element;
-}
+
 
 function showModal() {
     var modal = document.getElementById('modal');
