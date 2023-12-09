@@ -42,7 +42,7 @@ var marker2 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.8259, 48.8123])
     .addTo(map);
 var popup2 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Ferme de 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez leurs fromages ainsi que leurs yaourts travaillés dans vos assiettes. <br>Contacts : 0786603977      https://cellierdes30arpents.com</p>');
+    .setHTML('<h3>Fermes de 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez leurs fromages ainsi que leurs yaourts travaillés dans vos assiettes. <br>Contacts : 0786603977      https://cellierdes30arpents.com</p>');
 marker2.setPopup(popup2);
 
 
