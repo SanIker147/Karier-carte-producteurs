@@ -67,7 +67,7 @@ var marker5 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.568052, 48.649247])
     .addTo(map);
 var popup5 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>La coopérative BIO Île-de-France</h3><p>Principal partenaire de Karièr, la coopérative réunit 80 agriculteurs de la région pour proposer plus de 100 variétés de légumes différentes. <br>Contacts : 0164063617               https://www.la-cooperative-bio-iledefrance.fr/contact//p>');
+    .setHTML('<h3>La coopérative BIO Île-de-France</h3><p>Principal partenaire de Karièr, la coopérative réunit 80 agriculteurs de la région pour proposer plus de 100 variétés de légumes différentes. <br>Contacts : 0164063617               https://www.la-cooperative-bio-iledefrance.fr/contact//<p>');
 marker5.setPopup(popup5);
 
 
