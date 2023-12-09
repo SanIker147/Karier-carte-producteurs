@@ -132,18 +132,10 @@ var marker11 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .addTo(map);
 var popup11 = new mapboxgl.Popup({ offset: 25 })
     .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa production aux particuliers, en proposant aussi shiitakés ou pleurotes. <br>Contacts : 0609062152                              https://www.facebook.com/Champignonniere.Les.Carrieres</p>');
-popup11.on('open', function () {
-    var popupContent = popup11.getContent();
-    var contentWidth = popupContent.scrollWidth; // Mesurez la largeur du contenu
-    popupContent.style.width = contentWidth + 'px'; // Définissez la largeur en pixels
-});
-
-
 marker11.setPopup(popup11);
 
 
-// Ajouter un marqueur pour Vincent Morisseau à la ferme de Filbois, Aufervill
-e
+// Ajouter un marqueur pour Vincent Morisseau à la ferme de Filbois, Auferville
 var customMarkerImage12 = './images/fermeFILBOIS.png';
 var marker12 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage12) })
     .setLngLat([2.607893, 48.215815])
