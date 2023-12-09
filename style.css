@@ -78,3 +78,12 @@ html, body {
     width: 70px; /* Ajustez la largeur selon vos besoins */
     height: 70px; /* Ajustez la hauteur selon vos besoins */
 }
+
+.custom-popup {
+    width: auto;
+    max-width: 300px; /* Vous pouvez définir une largeur maximale si nécessaire */
+    padding: 15px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
