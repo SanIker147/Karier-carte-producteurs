@@ -7,7 +7,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [2.3187, 48.8199], // Coordonnées ajustées de Montrouge
-    zoom: 13
+    zoom: 10
 });
 
 // Fonction pour créer un élément HTML personnalisé (image)
@@ -27,12 +27,6 @@ var marker1 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
 // Ajouter un popup personnalisé au marqueur
 var popup1 = new mapboxgl.Popup({ offset: 25, className: 'custom-popup' })
     .setHTML('<h3>Restaurant Karièr</h3><p></p>');
-popup1.on('open', function () {
-    var popupContent = document.querySelector('.custom-popup');
-    popupContent.style.width = 'auto';
-});
-
-
 marker1.setPopup(popup1);
 
 
