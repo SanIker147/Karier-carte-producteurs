@@ -26,7 +26,7 @@ var marker1 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
 
 // Ajouter un popup personnalisé au marqueur
 var popup1 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Restaurant Karièr</h3><p></p>');
+    .setHTML('<h3>Restaurant Karièr</h3></p>');
 
 marker1.setPopup(popup1);
 
