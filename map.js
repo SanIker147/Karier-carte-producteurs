@@ -21,13 +21,11 @@ function createCustomMarker(imagePath, additionalClass) {
 // Ajouter un marqueur personnalisé pour le 71 Avenue Henri Ginoux, Montrouge
 var customMarkerImage1 = './images/Ksimplifiegris.jpg';
 var marker1 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage1) })
-    .setLngLat([2.321468, 48.816629])
+    .setLngLat([2.321469, 48.816629])
     .addTo(map);
-
 // Ajouter un popup personnalisé au marqueur
 var popup1 = new mapboxgl.Popup({ offset: 25 })
     .setHTML('<h3>Restaurant Karièr</h3></p>');
-
 marker1.setPopup(popup1);
 
 
