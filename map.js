@@ -31,7 +31,7 @@ var popup1 = new mapboxgl.Popup({ offset: 25, className: 'custom-popup' })
 marker1.setPopup(popup1);
 
 
-// Ajouter un marqueur pour la Ferme des 30 Arpents, Favières
+// Ajouter un marqueur pour la Ferme de 30 Arpents, Favières
 var customMarkerImage2 = './images/ferme30.jpeg';
 var marker2 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage2) })
     .setLngLat([2.8259, 48.8123])
@@ -96,7 +96,7 @@ var customMarkerImage8 = './images/champi2.jpeg';
 var marker8 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage8) })
     .setLngLat([2.3901, 48.8856])
     .addTo(map);
-var popup8 = new mapboxgl.Popup({ offset: 25 })
+var popup8 = new mapboxgl.Popup({ offset: 25, className: 'custom-popup' })
     .setHTML('<h3>Les champignons de la caverne</h3><p>Des champignons de Paris BIO cultivés dans les vraies caves parisiennes. La ferme urbaine est un de nos partenaires depuis les prémices du projet Karièr. <br>Contacts : 0140809371             https://lacaverne.co </p>');
 marker8.setPopup(popup8);
 
@@ -125,7 +125,7 @@ var customMarkerImage11 = './images/champignonsCARRIERES.png';
 var marker11 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage11) })
     .setLngLat([1.935649, 49.011488])
     .addTo(map);
-var popup11 = new mapboxgl.Popup({ offset: 25 })
+var popup11 = new mapboxgl.Popup({ offset: 25, className: 'custom-popup' })
     .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa production aux particuliers, en proposant aussi shiitakés ou pleurotes. <br>Contacts : 0609062152                              https://www.facebook.com/Champignonniere.Les.Carrieres</p>');
 marker11.setPopup(popup11);
 
@@ -149,7 +149,13 @@ var popup13 = new mapboxgl.Popup({ offset: 25 })
     .setHTML('<h3>Thierry Pardé</h3><p>Dégustez le safran de Sophie et Thierry Pardé, installés depuis 30 ans dans le Gâtinais. Chez Karièr, nous avons décidé de le mettre en valeur en un met sucré et délicat. <br>Contacts : 0238942136          </p>');
 marker13.setPopup(popup13);
 
-
+ // Fonction pour créer un élément HTML personnalisé (image)
+function createCustomMarker(imagePath) {
+    var element = document.createElement('div');
+    element.className = 'custom-marker';
+    element.style.backgroundImage = 'url(' + imagePath + ')';
+    return element;
+}
 
 function showModal() {
     var modal = document.getElementById('modal');
