@@ -19,7 +19,7 @@ function createCustomMarker(imagePath, additionalClass) {
 }
 
 // Ajouter un marqueur personnalisé pour le 71 Avenue Henri Ginoux, Montrouge
-var customMarkerImage1 = './images/ksimplifiegris.jpg';
+var customMarkerImage1 = './images/Ksimplifiegris.jpg';
 var marker1 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage1) })
     .setLngLat([2.321468, 48.816629])
     .addTo(map);
@@ -37,7 +37,7 @@ var marker2 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.8259, 48.8123])
     .addTo(map);
 var popup2 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Fermes de 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez dans vos assiettes leurs fromages ainsi que leurs yaourts travaillés toute en toute saison. <br>Contacts : 0786603977      https://cellierdes30arpents.com</p>');
+    .setHTML('<h3>Fermes de 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez dans vos assiettes leurs fromages ainsi que leurs yaourts travaillés en toute saison. <br>Contacts : 0786603977      https://cellierdes30arpents.com</p>');
 marker2.setPopup(popup2);
 
 
