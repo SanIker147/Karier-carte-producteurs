@@ -85,7 +85,7 @@ var marker7 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.8922, 48.9616])
     .addTo(map);
 var popup7 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Les assaisonnements Briard</h3><p>Nos fournisseurs de moutardes, vinaigres et épices en provenance directe de Meaux. <br>Contacts : 0164350082               <a href="https://www.moutarde-de-meaux.com" target="_blank">https://https://www.moutarde-de-meaux.com</a></p>');
+    .setHTML('<h3>Les assaisonnements Briard</h3><p>Nos fournisseurs de moutardes, vinaigres et épices en provenance directe de Meaux. <br>Contacts : 0164350082               <a href="https://www.moutarde-de-meaux.com" target="_blank">https://www.moutarde-de-meaux.com</a></p>');
 marker7.setPopup(popup7);
 
 
@@ -124,7 +124,7 @@ var marker11 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([1.935649, 49.011488])
     .addTo(map);
 var popup11 = new mapboxgl.Popup({ offset: 25, className: 'custom-popup' })
-    .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa production aux particuliers, en proposant aussi shiitakés ou pleurotes. <br>Contacts : 0609062152                              <a href="https://www.facebook.com/Champignonniere.Les.Carrieres" target="_blank">https://www.facebook.com/Champignonniere.Les.Carrieres</a></p>');
+    .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa production aux particuliers, en proposant aussi shiitakés ou pleurotes. <br>Contacts : 0609062152                              <a href="https://champignonniere-des-carrieres.fr" target="_blank">https://champignonniere-des-carrieres.fr</a></p>');
 marker11.setPopup(popup11);
 
 
