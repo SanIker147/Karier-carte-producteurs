@@ -105,7 +105,6 @@ var marker9 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .addTo(map);
 var popup9 = new mapboxgl.Popup({ offset: 25 })
     .setHTML('<h3>Luximer</h3><p>Notre producteur de produits de la mer, pêchés à quelques kilomètres de Saint-Brieuc.<br>Contacts : 0970160351               <a href="https://www.luximer.com/fr/" target="_blank">https://www.luximer.com/fr/ </a></p>');
-marker8.setPopup(popup8)');
 marker9.setPopup(popup9);
 
 
