@@ -94,7 +94,7 @@ var customMarkerImage8 = './images/champi2.jpeg';
 var marker8 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage8) })
     .setLngLat([2.3901, 48.8856])
     .addTo(map);
-var popup8 = new mapboxgl.Popup({ offset: 25, className: 'custom-popup' })
+var popup8 = new mapboxgl.Popup({ offset: 25})
     .setHTML('<h3>Les champignons de la caverne</h3><p>Des champignons de Paris BIO cultivés dans les vraies caves parisiennes. La ferme urbaine est un de nos partenaires depuis les prémices du projet Karièr. <br>Contacts : 0140809371             <a href="https://lacaverne.co" target="_blank">https://lacaverne.co</a></p>');
 marker8.setPopup(popup8);
 
