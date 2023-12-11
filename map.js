@@ -123,7 +123,7 @@ var customMarkerImage11 = './images/champignonsCARRIERES.png';
 var marker11 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage11) })
     .setLngLat([1.935649, 49.011488])
     .addTo(map);
-var popup11 = new mapboxgl.Popup({ offset: 25, className: 'custom-popup' })
+var popup11 = new mapboxgl.Popup({ offset: 25 })
     .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa production aux particuliers, en proposant aussi shiitakés ou pleurotes. <br>Contacts : 0609062152                              <a href="https://champignonniere-des-carrieres.fr" target="_blank">https://champignonniere-des-carrieres.fr</a></p>');
 marker11.setPopup(popup11);
 
