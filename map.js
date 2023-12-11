@@ -35,7 +35,7 @@ var marker2 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.8259, 48.8123])
     .addTo(map);
 var popup2 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Fermes de 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez dans vos assiettes leurs fromages ainsi que leurs yaourts travaillés en toute saison. <br>Contacts : 0786603977      <a href="https://www.facebook.com/fermechaillotine" target="_blank">https://www.facebook.com/fermechaillotine</a> </p>');
+    .setHTML('<h3>Fermes des 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez dans vos assiettes leurs fromages ainsi que leurs yaourts travaillés en toute saison. <br>Contacts : 0786603977      <a href="https://www.facebook.com/fermechaillotine" target="_blank">https://www.facebook.com/fermechaillotine</a> </p>');
 marker2.setPopup(popup2);
 
 
