@@ -123,7 +123,7 @@ var customMarkerImage11 = './images/champignonsCARRIERES.png';
 var marker11 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage11) })
     .setLngLat([1.935649, 49.011488])
     .addTo(map);
-var popup11 = new mapboxgl.Popup({ offset: 25, className: 'custom-popup' })
+var popup11 = new mapboxgl.Popup({ offset: 25 })
     .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa production aux particuliers, en proposant aussi shiitakés ou pleurotes. <br>Contacts : 0609062152                              <a href="https://www.facebook.com/Champignonniere.Les.Carrieres" target="_blank">https://www.facebook.com/Champignonniere.Les.Carrieres</a></p>');
 marker11.setPopup(popup11);
 
@@ -134,7 +134,7 @@ var marker12 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([2.607893, 48.215815])
     .addTo(map);
 var popup12 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contacts : 0164287677                             <a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
+    .setHTML('<h3>Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker12.setPopup(popup12);
 
 
