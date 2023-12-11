@@ -91,3 +91,8 @@ html, body {
     font-family:'Sorts Mill Goudy', serif;
     font-weight:bold;
 }
+
+.titre_pop{
+    color: red;
+    text-align: center;
+}

@@ -25,7 +25,7 @@ var marker1 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .addTo(map);
 // Ajouter un popup personnalisé au marqueur
 var popup1 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Restaurant Karièr</h3></p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker1.setPopup(popup1);
 
 
@@ -35,7 +35,7 @@ var marker2 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.8259, 48.8123])
     .addTo(map);
 var popup2 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Fermes des 30 Arpents</h3><p>Notre fournisseur de produits laitiers, à Favières. Retrouvez dans vos assiettes leurs fromages ainsi que leurs yaourts travaillés en toute saison. <br>Contacts : 0786603977       <a href="https://cellierdes30arpents.com" target="_blank">https://cellierdes30arpents.com</a></p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker2.setPopup(popup2);
 
 
@@ -45,7 +45,7 @@ marker2.setPopup(popup2);
     .setLngLat([2.5948, 48.4321])
     .addTo(map);
 var popup3 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Ferme chaillotine</h3><p>Notre maraîchère, Camille Allard, produit tous ses fruits et légumes Bio à sa ferme de Chailly-en-Bière, en Seine-et-Marne. Découvrez ses produits mis en valeur lors de votre dégustation. <br> Contacts : 0757066765          <a href="https://www.facebook.com/fermechaillotine" target="_blank">https://www.facebook.com/fermechaillotine</a></p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker3.setPopup(popup3);
 
 
@@ -55,7 +55,7 @@ var marker4 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.4665, 48.4038])
     .addTo(map);
 var popup4 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Orée de milly</h3><p>Rencontrez notre producteur de chapons, élevés en plein air, et BIO : Pierre-Nicolas Grisel. <br>Contacts : 0601630343</p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker4.setPopup(popup4);
 
 
@@ -65,7 +65,7 @@ var marker5 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.568052, 48.649247])
     .addTo(map);
 var popup5 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>La coopérative BIO Île-de-France</h3><p>Principal partenaire de Karièr, la coopérative réunit 80 agriculteurs de la région pour proposer plus de 100 variétés de légumes différentes. <br>Contacts : 0164063617                                                  <a href="https://www.la-cooperative-bio-iledefrance.fr/contact//" target="_blank">https://www.la-cooperative-bio-iledefrance.fr/contact//</a></p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker5.setPopup(popup5);
 
 
@@ -75,7 +75,7 @@ var marker6 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.3469, 48.4878])
     .addTo(map);
 var popup6 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Les moulins Fouché</h3><p>Retrouvez la production de farines bio des moulins Fouché, à la Ferté-Alais.<br>Contacts : 0169906280          <a href="https://www.moulinsfouche.fr" target="_blank">https://www.moulinsfouche.fr</a></p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker6.setPopup(popup6);
 
 
@@ -85,7 +85,7 @@ var marker7 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.8922, 48.9616])
     .addTo(map);
 var popup7 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Les assaisonnements Briard</h3><p>Nos fournisseurs de moutardes, vinaigres et épices en provenance directe de Meaux. <br>Contacts : 0164350082               <a href="https://www.moutarde-de-meaux.com" target="_blank">https://www.moutarde-de-meaux.com</a></p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker7.setPopup(popup7);
 
 
@@ -95,7 +95,7 @@ var marker8 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([2.3901, 48.8856])
     .addTo(map);
 var popup8 = new mapboxgl.Popup({ offset: 25})
-    .setHTML('<h3>Les champignons de la caverne</h3><p>Des champignons de Paris BIO cultivés dans les vraies caves parisiennes. La ferme urbaine est un de nos partenaires depuis les prémices du projet Karièr. <br>Contacts : 0140809371             <a href="https://lacaverne.co" target="_blank">https://lacaverne.co</a></p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker8.setPopup(popup8);
 
 // Ajouter un marqueur pour Luximer, 22410 Saint-Quay-Portrieux
@@ -104,7 +104,7 @@ var marker9 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImag
     .setLngLat([-2.823314, 48.648574])
     .addTo(map);
 var popup9 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Luximer</h3><p>Notre producteur de produits de la mer, pêchés à quelques kilomètres de Saint-Brieuc.<br>Contacts : 0970160351               <a href="https://www.luximer.com/fr/" target="_blank">https://www.luximer.com/fr/</a></p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker9.setPopup(popup9);
 
 
@@ -114,7 +114,7 @@ var marker10 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([2.061361, 49.013664])
     .addTo(map);
 var popup10 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Laurent Berrurier</h3><p>Notre fier maraîcher, amoureux des produits franciliens, produit chaque année plus de 130 variétés de légumes, en pleine Terre !<br>Contacts : 0130326084</p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker10.setPopup(popup10);
 
 
@@ -124,7 +124,7 @@ var marker11 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([1.935649, 49.011488])
     .addTo(map);
 var popup11 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Champignonnière des carrières</h3><p>Notre principal producteur de champignons de Paris BIO, à Evecquemont. Angel Moioli est un passionné des champignons et a récemment ouvert sa production aux particuliers, en proposant aussi shiitakés ou pleurotes. <br>Contacts : 0609062152                              <a href="https://champignonniere-des-carrieres.fr" target="_blank">https://champignonniere-des-carrieres.fr</a></p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker11.setPopup(popup11);
 
 
@@ -134,7 +134,7 @@ var marker12 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([2.607893, 48.215815])
     .addTo(map);
 var popup12 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
+    .setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker12.setPopup(popup12);
 
 
@@ -144,7 +144,7 @@ var marker13 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerIma
     .setLngLat([2.985058, 48.067148])
     .addTo(map);
 var popup13 = new mapboxgl.Popup({ offset: 25 })
-    .setHTML('<h3>Thierry Pardé</h3><p>Dégustez le safran de Sophie et Thierry Pardé, installés depuis 30 ans dans le Gâtinais. Chez Karièr, nous avons décidé de le mettre en valeur en un met sucré et délicat. <br>Contacts : 0238942136          </p>');
+.setHTML('<h3 class="titre_pop">Vincent Morisseau</h3><p>Faites connaissance avec Vincent Morisseau à la ferme de Filbois, dans le Gâtinais, et allez à la rencontre de ses volailles et ses agneaux, élevés en plein air et nourris avec les produits de la ferme, travailler avec Vincent est pour nous une chance !<br>Contact : <a href="tel:0164287677">0164287677</a><br><a href="http://www.ferme-de-filbois.fr" target="_blank">http://www.ferme-de-filbois.fr</a></p>');
 marker13.setPopup(popup13);
 
  // Fonction pour créer un élément HTML personnalisé (image)
