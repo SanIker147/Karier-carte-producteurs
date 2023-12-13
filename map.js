@@ -150,7 +150,7 @@ marker13.setPopup(popup13);
 
 
 // Ajouter un marqueur pour Serge Barberon, Mérévillois
-var customMarkerImage14 = './images/Serge_Barberon.png';
+var customMarkerImage14 = './images/SergeBarberon.png';
 var marker14 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage14) })
     .setLngLat([2.085792, 48.316659])
     .addTo(map);
