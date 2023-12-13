@@ -148,6 +148,16 @@ var popup13 = new mapboxgl.Popup({ offset: 25 })
 .setHTML('<h3 class="titre_pop">Thierry Pardé</h3><p>Dégustez le safran de Sophie et Thierry Pardé, installés depuis 30 ans dans le Gâtinais. Chez Karièr, nous avons décidé de le mettre en valeur en un met sucré et délicat. <br>Contact : <a href="tel:0238942136">0238942136</a></p>');
 marker13.setPopup(popup13);
 
+
+// Ajouter un marqueur pour Serge Barberon, Mérévillois
+var customMarkerImage14 = './images/Serge_Barberon.png';
+var marker14 = new mapboxgl.Marker({ element: createCustomMarker(customMarkerImage14) })
+    .setLngLat([2.085792, 48.316659])
+    .addTo(map);
+var popup14 = new mapboxgl.Popup({ offset: 25 })
+.setHTML('<h3 class="titre_pop">Serge Barbéron</h3><p>Fier partenaire de la coopérative, Serge cultive chaque année jusqu'à 60 000 bottes de cresson, en agriculture biologique !. <br>Contact : <a href="tel:0164951195">0164951195</a></p>');
+marker14.setPopup(popup14);
+
  // Fonction pour créer un élément HTML personnalisé (image)
 function createCustomMarker(imagePath) {
     var element = document.createElement('div');
